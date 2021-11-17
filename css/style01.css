@@ -1,0 +1,57 @@
+/* Cor de fundo: #00C3B6
+• H1: Trebuchet MS, #EEEEEE
+• Parágrafo: Trebuchet MS, 13, 
+#113A52, entrelinha 1.5, recuo da 
+primeira linha 25
+• Link:
+o Normal: #EEEEEE, sem 
+sublinhado
+o Mouse em cima: #FFFFFF, 
+sublinhado
+o Depois de clicado: #113A52 */
+
+body {
+  background-color: #00c3b6;
+}
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #eeeeee;
+}
+
+p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 13px;
+  color: #113a52;
+  line-height: 1.5;
+  text-indent: 25px;
+}
+
+a {
+  color: #eeeeee;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #113a52;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: #ffffff;
+}
+
+ul li {
+  list-style: none;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+}
+
+div p {
+    margin: 0;
+    padding: 0;
+} 

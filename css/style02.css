@@ -1,0 +1,61 @@
+/* Formatação
+Imagem de fundo: Fixa (skulls.jpg)
+H1: Cambria,
+ #594036,
+  espaçamento entre letras 3
+H2: Cambria,
+ #594036, 
+ itálico,
+espaçamento entre letras 3
+
+Texto: Cambria, 
+15,
+ #261F26, 
+ justificado,
+entrelinha 2, recuo da primeira linha 10
+Link:
+- Normal: #A68D77, sem sublinhado
+- Mouse em cima: #594036, sublinhado
+- Depois de clicado: #594036 */
+
+
+body {
+  background-image: url("../img//skulls.png");
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  letter-spacing: 3;
+  color: #594036;
+}
+
+h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #594036;
+  font-style: italic;
+  letter-spacing: 3;
+}
+
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #261f26;
+  text-align: justify;
+  line-height: 2;
+  text-indent: 10px;
+  font-size: 15px;
+}
+
+
+a {
+    color: #a68d77;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #594036;
+    text-decoration: underline;
+  }
+  
+  a:visited {
+    color: #594036;
+  }

@@ -1,0 +1,82 @@
+/* Título nível 1 Fonte: Tahoma; Cor: #323232;
+Texto azul Fonte: verdana; Tamanho: 12pt; Alinhamento: justificado; Altura da linha: 1.5;
+Cor: #04BFBF
+Texto vermelho Fonte: Tahoma; Tamanho: 13pt; Alinhamento: à direita; Altura da linha: 1.5;
+Cor: #BF1F1F
+Texto amarelo Fonte: "Trebuchet MS"; Tamanho: 14pt; Altura da linha: 1.5; Cor: #F2BC1B;
+Cor de plano de fundo #FFFBE6
+Link Cor: #323232; sem sublinhado
+Link visitado Cor: #CBCBCB; sem sublinhado
+link sob o mouse Cor: #7E7E7E; sublinhado e sobrelinha
+Link da Fortune Fonte: Verdana; Cor: #4E8DA6; sem sublinhado 
+Link da Fortune visitado Fonte: Verdana; Cor: #CC0000; sem sublinhado
+Link da Fortune sob o mouse Fonte: Verdana; Cor: #000088; sublinhado e sobrelinha */
+
+body {
+  background-color: #fffbe6;
+}
+
+h1 {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  color: #323232;
+}
+
+.blueText {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12pt;
+  text-align: justify;
+  line-height: 1.5;
+  color: #04bfbf;
+}
+
+.redText {
+  font-family: "Tahoma", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13pt;
+  text-align: right;
+  line-height: 1.5;
+  color: #bf1f1f;
+}
+
+.yellowText {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 14pt;
+  line-height: 1.5;
+  color: #f2bc1b;
+  background-color: #fffbe6;
+}
+
+a {
+  color: #323232;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7e7e7e;
+  text-decoration: underline;
+  /* sobre linha */
+}
+
+a:visited {
+  color: #cbcbcb;
+  text-decoration: none;
+}
+
+.linkFortune {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #4e8da6;
+  text-decoration: none;
+}
+
+.linkFortune:hover {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #cc0000;
+  text-decoration: none;
+}
+
+.linkFortune:visited {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #000088;
+  text-decoration: underline;
+  /* sobre linha */
+}
