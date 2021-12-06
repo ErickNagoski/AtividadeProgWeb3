@@ -1,0 +1,15 @@
+.div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+}
+
+a {
+    margin-bottom: 5px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}

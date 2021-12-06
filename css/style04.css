@@ -1,0 +1,39 @@
+body {
+    background-color: #eaeaea;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+img {
+    width: 10rem;
+}
+img:active{
+    border: red solid 2px;
+}
+
+.redText{
+    color: #530000;
+
+}
+
+.parkImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parkImg img{
+    width: 30%;
+}
